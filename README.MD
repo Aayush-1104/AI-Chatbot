@@ -33,57 +33,40 @@ yaml
 Copy code
 
 ---
-
 ## ⚙️ Installation & Setup
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Aayush-1104/AI-Chatbot.git
-   cd AI-Chatbot
-Create and activate virtual environment (optional but recommended)
-
+### 1. Clone the repository
+```bash
+git clone https://github.com/Aayush-1104/AI-Chatbot.git
+cd AI-Chatbot
+2. Create and activate virtual environment (optional but recommended)
 bash
 Copy code
+# Mac/Linux
 python -m venv venv
-source venv/bin/activate   # Mac/Linux
-venv\Scripts\activate      # Windows
-Install dependencies
+source venv/bin/activate
 
+# Windows
+python -m venv venv
+venv\Scripts\activate
+3. Install dependencies
 bash
 Copy code
 pip install -r req.txt
-Set up environment variables
-
+4. Set up environment variables
 Create a .env file in the root directory
 
-Add your Groq API key:
+Add your Groq API key inside it:
 
 env
 Copy code
 GROQ_API_KEY=your_api_key_here
-Run the chatbot
-
+5. Run the chatbot
 bash
 Copy code
+# For enhanced chatbot (with personas, memory, stats)
 streamlit run main.py
-or for a simpler version:
 
-bash
-Copy code
+# For basic chatbot
 streamlit run app.py
-🎮 Usage
-Select model and persona from the sidebar.
 
-Adjust conversational memory length.
-
-Start chatting and view real-time responses.
-
-Use Clear Chat History to reset conversation.
-
-Monitor chat statistics like total messages and duration.
-
-📸 Screenshots
-(Add your app screenshots here for better presentation.)
-
-📜 License
-This project is licensed under the Apache 2.0 License – see the LICENSE file for details.
