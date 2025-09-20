@@ -36,12 +36,10 @@ AI-Chatbot/
 ## ⚙️ Installation & Setup
 
 ### 1. Clone the repository
-```bash
 git clone https://github.com/Aayush-1104/AI-Chatbot.git
 cd AI-Chatbot
 
 ### 2. Create and activate virtual environment (optional but recommended)
-```bash
 # Mac/Linux
 python -m venv venv
 source venv/bin/activate
@@ -50,7 +48,6 @@ python -m venv venv
 venv\Scripts\activate
 
 ### 3. Install dependencies
-```bash
 pip install -r req.txt
 
 ### 4. Set up environment variables
@@ -59,7 +56,6 @@ pip install -r req.txt
 -> GROQ_API_KEY=your_api_key_here
 
 ### 5. Run the chatbot
-```bash
 # For enhanced chatbot (with personas, memory, stats)
 streamlit run main.py
 # For basic chatbot
@@ -76,6 +72,7 @@ Start chatting and view real-time responses
 Use Clear Chat History to reset conversation
 
 Monitor chat statistics (messages count & duration)
+
 
 
 
