@@ -39,7 +39,8 @@ Copy code
 ```bash
 git clone https://github.com/Aayush-1104/AI-Chatbot.git
 cd AI-Chatbot
-2. Create and activate virtual environment (optional but recommended)
+
+### 2. Create and activate virtual environment (optional but recommended)
 bash
 Copy code
 # Mac/Linux
@@ -49,11 +50,11 @@ source venv/bin/activate
 # Windows
 python -m venv venv
 venv\Scripts\activate
-3. Install dependencies
+### 3. Install dependencies
 bash
 Copy code
 pip install -r req.txt
-4. Set up environment variables
+### 4. Set up environment variables
 Create a .env file in the root directory
 
 Add your Groq API key inside it:
@@ -61,7 +62,7 @@ Add your Groq API key inside it:
 env
 Copy code
 GROQ_API_KEY=your_api_key_here
-5. Run the chatbot
+### 5. Run the chatbot
 bash
 Copy code
 # For enhanced chatbot (with personas, memory, stats)
@@ -69,4 +70,5 @@ streamlit run main.py
 
 # For basic chatbot
 streamlit run app.py
+
 
